@@ -18,6 +18,8 @@ public class Poker {
 
 		return false;
 	}
+	
+	// This line will fix the bug. 
 
 	// Precondition: A hand of n cards have been sorted by card number.
 	public boolean isTwoPairs(String cards[], int n) {
